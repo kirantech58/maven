@@ -27,7 +27,7 @@ public class MemberRegistration {
 
    @Inject
    private EntityManager em;
-
+   private EntityManager em;
    @Inject
    private Event<Member> memberEventSrc;
 
